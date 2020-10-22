@@ -1,0 +1,4 @@
+# Ignore keys
+.android-certs/
+*.pem
+*.pk8
