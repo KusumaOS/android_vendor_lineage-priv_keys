@@ -1,0 +1,8 @@
+filegroup(
+    name = "android_certificate_directory",
+    srcs = glob([
+        ".android-certs/*.pk8",
+        ".android-certs/*.pem",
+    ]),
+    visibility = ["//visibility:public"],
+)
